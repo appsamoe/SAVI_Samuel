@@ -377,7 +377,7 @@ def main():
                 2,
             )
             cv2.imshow("Vehicle tracking", display)
-            # cv2.imshow("Clean foreground mask", clean_mask)
+            cv2.imshow("Clean foreground mask", clean_mask)
 
             if cv2.waitKey(5) & 0xFF == ord("q"):
                 print("Stopped by user.")
